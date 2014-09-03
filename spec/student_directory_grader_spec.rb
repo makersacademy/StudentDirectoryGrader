@@ -21,6 +21,14 @@ describe 'StudentDirectory Project' do
     expect(readme).not_to be_nil
   end
 
+  it 'is not a fork'
+
+  it 'should have a file directory.rb'
+
+  it 'should have an early commit with some puts statements'
+
+  it 'should have a later commit with the variable "student_count" defined'
+
   it 'should not smell' do
     uri = URI(REPO_URL+'/contents/directory.rb')
     str = Net::HTTP.get(uri) 
